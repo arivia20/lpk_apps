@@ -26,7 +26,8 @@ if (selected == 'Homepage') :
      Website ini merupakan situs yang berisi materi dan latihan analisis titrimetri dan kimia organik yang dapat mempermudah kegiatan
      pembelajaran serta sebagai sarana latihan untuk mengasah kemampuan dalam materi tersebut.
      ''')
-        
+      image = Image.open('(Image 2023-05-10 at 20.25.25.jpg)')
+      st.image(image)
         
 #Materi
 if (selected == 'Materi') :
